@@ -1,1 +1,1 @@
-# pint-quantum
+# pinn-quantum
