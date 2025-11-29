@@ -1,0 +1,7 @@
+Using cpu
+Fidelity n=1, l=0: 0.999963
+Fidelity n=2, l=0: 0.999959
+Fidelity n=3, l=0: 0.999939
+Fidelity n=2, l=1: 0.999959
+Fidelity n=3, l=1: 0.999716
+Fidelity n=3, l=2: 0.999737
