@@ -1,6 +1,6 @@
 import os
 import torch 
-PROJECT_ROOT = '/Users/sarthakbhattarai/Documents/code/python/pinn/hydrogen'
+PROJECT_ROOT = '/Users/sarthakbhattarai/Documents/code/python/pinn-quantum/hydrogen'
 MODEL_PATH = os.path.join(PROJECT_ROOT, 'models')
 PLOT_PATH = os.path.join(PROJECT_ROOT,'plots')
 CONVERGE_PATH = os.path.join(PROJECT_ROOT,'convergence')

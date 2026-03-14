@@ -28,7 +28,7 @@ if __name__ == "__main__":
     if excited:
         wf_list=load_wavefunctions_for_ortho(n=n,l=l,r=r_torch,hidden_layers=hidden_layers,model_class=NN, print_=True)
         wf_list = [(psi.to(device), E) for psi, E in wf_list]
-    plot = False
+    plot = True
     if plot == False:
         energy,lowest_residual,epoch_, time_taken = train(wave_form, r_torch=r_torch, 
                    epochs=800000,loss_fn=loss_fn_rayleigh, 
